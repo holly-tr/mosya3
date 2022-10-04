@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LPテンプレート</title>
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="./script.js"></script>
+    </head>    
+    <body>
+        <header class="header">
+            <div class="header-logo">
+                <a href="index.html"><h1>LOGO</h1></a>
+
+                <div id="toggle">
+                    <div id="toggle-box">
+                        <div id="open"></div>
+                        <div id="close"></div>
+                    </div>
+                </div>
+                <button>
+                    <span>お問い合わせ</span>
+                </button>
+            </div>
+            <nav class="header-nav">
+                
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="#product">商品について</a></li>
+                    <li><a href="#staff">お客様の声</a></li>
+                    <li><a href="#application">申し込みの流れ</a></li>
+                    <li><a href="#access">アクセス</a></li>
+                    <li><a href="#inquiry">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-img">
+                <img src="./img/mainimg.jpg" alt="画像">
+            </div>
+            <section class="main-catch container">
+                <h2>キャッチフレーズ</h2>
+                <p>ここにキャッチコピーが入ります。<br>お店の宣伝やコンプセプトなど。魅せる文言を入力。</p>
+            </section>
+
+            <section id="product" class="main-product">
+                <div class="product-container container">
+                    <h2 class="main-title">商品について</h2>
+                    <ul class="product-list">
+                        <li>
+                            <img src="./img/product.jpg">
+                            <p class="bigLe">ここに商品が入ります</p>
+                            <p>ここに説明文が入ります</p>
+                        </li>
+                        <li>
+                            <img src="./img/product.jpg">
+                            <p class="bigLe">ここに商品が入ります</p>
+                            <p>ここに説明文が入ります</p>
+                        </li>
+                        <li>
+                            <img src="./img/product.jpg">
+                            <p class="bigLe">ここに商品が入ります</p>
+                            <p>ここに説明文が入ります</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="staff" class="main-staff">
+                <div class="staff-container container">
+                    <h2 class="main-title">スタッフ紹介</h2>
+                    <ul class="staff-list">
+                        <li>
+                            <img src="./img/staff.jpg">
+                            <p class="bigLe">スタッフ</p>
+                            <p>ここに説明文が入ります</p>
+                        </li>
+                        <li>
+                            <img src="./img/staff.jpg">
+                            <p class="bigLe">スタッフ</p>
+                            <p>ここに説明文が入ります</p>
+                        </li>
+                        <li>
+                            <img src="./img/staff.jpg">
+                            <p class="bigLe">スタッフ</p>
+                            <p>ここに説明文が入ります</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="application" class="main-application">
+                <div class="application-container container">
+                    <h2 class="main-title">申し込みの流れ</h2>
+                    <ul class="application-list">
+                        <li class="appLi">
+                            <img src="./img/flow.jpg">
+                            <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+                        </li>
+                        <li class="appLi">
+                            <img src="./img/flow.jpg">
+                            <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+                        </li>
+                        <li class="appLi">
+                            <img src="./img/flow.jpg">
+                            <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="access" class="main-access container">
+                <h2 class="main-title">アクセス</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27814443.96425483!2d120.28897720705172!3d31.679877148840735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2z5pel5pys!5e0!3m2!1sja!2sjp!4v1555153587836!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section>
+
+            <section id="inquiry" class="main-form container">
+                <h2 class="main-title">お問い合わせ</h2>
+                <div class="form-img">
+                    <div class="img-item">
+                        <img src="./img/tel.png">
+                        <p>012-345-6789</p>
+                    </div>
+                    <div class="img-item">
+                        <img src="./img/mail.png">
+                        <p>simple@mail.com</p>
+                    </div>
+                </div>
+            
+                <form action="" method="post">
+                    <dl class="form-description">
+                        <dt>お名前</dt>
+                        <dd>
+                            <input type="text" name="your-name" placeholder="名前を記入">
+                        </dd>
+                        <dt>メールアドレス</dt>
+                        <dd>
+                            <input type="email" name="your-email" placeholder="メールアドレスを記入">
+                        </dd>
+                        <dt>お電話番号</dt>
+                        <dd>
+                            <input type="text" name="your-number" placeholder="お電話番号を記入">
+                        </dd>
+                        <dt class="label">
+                            <label for="form">お問い合わせ内容</label>
+                        </dt>
+                        <dd>
+                            <textarea id="form" placeholder="用件をご記入ください···"></textarea>
+                        </dd>
+                    </dl>
+                    <button class="button">送信</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <section class="footer">
+                <div class="footer-container container">
+                    <ul class="footer-list">
+                        <li>
+                            <h3 class="foItem">フッター１<h3>
+                            <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+                        </li>
+                        <li>
+                            <h3 class="foItem">フッター2<h3>
+                            <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+                        </li>
+                        <li>
+                            <h3 class="foItem">フッター3<h3>
+                            <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="copyright">
+                <p>Copyright &copy; popodesign.</p>
+            </div>
+        </footer>
+        <a href="#" id="page_top">TOP</a>
+    </body>
+
+</html>
